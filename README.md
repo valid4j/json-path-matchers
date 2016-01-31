@@ -12,10 +12,10 @@ Add this dependency to your `pom.xml`
     <dependency>
 	    <groupId>org.valid4j</groupId>
 	    <artifactId>json-path-matchers</artifactId>
-	    <version>1.0</version>
+	    <version>1.1</version>
     </dependency>
 
-Correlation between different artifacts:
+Correlation between different artifacts (i.e. compile dependency):
 
 | org.valid4j:json-path-matchers  | com.jayway.jsonpath:json-path |
 | ------------- | ------------- |
