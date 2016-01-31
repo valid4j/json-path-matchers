@@ -6,7 +6,21 @@ using json path expressions, based on [JsonPath](https://github.com/jayway/JsonP
 
 # Getting started
 
-TBD
+This library is available at [Maven Central Repository](http://search.maven.org/).
+Add this dependency to your `pom.xml`
+
+    <dependency>
+	    <groupId>org.valid4j</groupId>
+	    <artifactId>json-path-matchers</artifactId>
+	    <version>1.0</version>
+    </dependency>
+
+Correlation between different artifacts:
+
+| org.valid4j:json-path-matchers  | com.jayway.jsonpath:json-path |
+| ------------- | ------------- |
+| 1.0  | 2.0.0  |
+| 1.1  | 2.1.0  |
 
 # Usage guide
 
@@ -73,3 +87,7 @@ Use typed matchers for specific JSON representations, if needed
 
     File json = ...
     assertThat(json, isJsonFile(withJsonPath("$..author")));
+
+## Project license
+
+This software is licensed under [Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt)
