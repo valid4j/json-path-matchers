@@ -12,7 +12,7 @@ TBD
 
 Statically import the library entry point:
 
-    import static com.jayway.jsonpath.matchers.JsonPathMatchers.*;
+    import static org.valid4j.matchers.jsonpath.JsonPathMatchers.*;
 
 NOTE: The actual evaluation of JsonPath will depend on the current configuration:
 
