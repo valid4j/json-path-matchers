@@ -19,8 +19,8 @@ Correlation between different artifacts (i.e. compile dependency):
 
 | org.valid4j:json-path-matchers  | com.jayway.jsonpath:json-path |
 | ------------- | ------------- |
-| 1.0  | 2.0.0  |
 | 1.1  | 2.1.0  |
+| 1.0  | 2.0.0  |
 
 # Usage guide
 
